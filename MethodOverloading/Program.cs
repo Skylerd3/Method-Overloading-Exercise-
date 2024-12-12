@@ -32,8 +32,24 @@
                 
           static void Main(string[] args)
         {
-            Console.WriteLine(Add(7, 5,true));
-        }      
+            var x = 5;
+            var y = 7;
+
+            var Answer = Add(x, y);
+
+            var a = 13.1m;
+            var b = 20.2m;
+
+            var decimalAnswer = Add(a, b);
+
+            var ThirdAnswer = Add(2, 4, true);
+
+            Console.WriteLine($"Answers:\n int Add: {Answer}\n Decimal Add: {decimalAnswer}\n is money: {ThirdAnswer}");
+
+
+
+           
+        }     
                  
                 
             
